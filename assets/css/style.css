@@ -1,32 +1,44 @@
 body{
-    background-image: image()
+    margin: 0;
 }
+
 nav{
-    background-color: teal;
+    background-color: #ffffff;
+    border-bottom: solid 2px #cccccc;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    color: teal;
+    color: #B863A9;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .heading{
-    background-color: pink;
-    color: teal;
+    background-color: #4aaaa5;
+    color: #ffffff;
     width: 20%;
-    height: 75px;
+    height: 60px;
     margin: 0 0 0 200px;
     padding: 30px 0 0 0;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }    
 ul{
     list-style-type: none;
-    margin-right: 50px;
-    background-color: orange;
     text-align: start;
+    margin-right: 150px;
 }
 li{                                                                                                                                                                                         
     float: right;
     padding: 50px 20px 0 20px;
+}
+
+ul li:after{
+    content: "|"; 
+    padding: 0 10px 0 10px;
+    color:  #cccccc;
+}
+.link{
+    color: #777777;
+    text-decoration: none;
 }
 .clearfix::after{
     content: "";
@@ -36,39 +48,85 @@ li{
 hr{
     display: block;
     border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
     margin: auto;
     margin-bottom: 20px;
 }
 section{
     position: static;
     width: 70%;
-    background-color: gray;
+    background-color: #ffffff;
+    border: solid 0.5px #dddddd;
     margin: auto;
     padding: 20px;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 35px;
+    color: #777777;
 }
 .profile{
     float: left;
     margin-right: 20px;
+    width: 200px;
 }
 figure{
     float: left;
     width: 25%;
+    max-width: 25%;
+    position: relative;
+}
+.p-img{
+    display: block;
+    width: 100%;
+}
+.top{
+    float: left;
+}
+.bottom{
+    float: left;
 }
 figcaption{
-    background-color: teal;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7DC60;
+    color: #786A29;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    bottom: 20px; 
 }
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+input[type=text]{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;  
+    margin: 5px 0 0 0;  
+    color: #777777;
+    width: 97%;
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+.lrg-input{
+    height: 100px;
+}
+
 footer{
     position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
-    padding: 20px;
-    background-color: lightslategray;
+    padding: 15px;
+    background-color: #205E5B;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 10px;    
+    border-top: 7px solid #B863A9;
+
 }
