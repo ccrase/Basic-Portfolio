@@ -3,6 +3,7 @@ body{
 }
 
 nav{
+    margin-top: -20px;
     background-color: #ffffff;
     border-bottom: solid 2px #cccccc;
     font-family: Arial, Helvetica, sans-serif;
@@ -65,11 +66,13 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 35px;
     color: #777777;
+    text-indent: 20px;
 }
+
 .profile{
     float: left;
     margin-right: 20px;
-    width: 200px;
+    width: 250px;
 }
 figure{
     float: left;
@@ -88,8 +91,8 @@ figure{
     float: left;
 }
 figcaption{
-    background-color: #F7DC60;
-    color: #786A29;
+    background-color: #4aaaa5;
+    color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     bottom: 20px; 
@@ -126,7 +129,7 @@ footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 10px;    
+    font-size: 12px;    
     border-top: 7px solid #B863A9;
 
 }
